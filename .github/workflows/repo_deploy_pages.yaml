@@ -15,6 +15,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
+          ./set-base.sh
           yarn
           yarn build
       - name: Deploy 🚀
