@@ -1,4 +1,4 @@
-import{B as p,F as f,C as c,S as d,W as b,E as y,a as P,b as g,c as k,d as m}from"./index-PmZ8IPWA.js";const w=URL.createObjectURL(new Blob([`
+import{B as p,F as f,C as c,S as d,W as b,E as y,a as P,b as g,c as k,d as m}from"./index-Cvrv7IKX.js";const w=URL.createObjectURL(new Blob([`
       class PCMProcessor extends AudioWorkletProcessor {
         constructor() { super(); }
         process(inputs) {
@@ -10,7 +10,7 @@ import{B as p,F as f,C as c,S as d,W as b,E as y,a as P,b as g,c as k,d as m}fro
     `],{type:"application/javascript"})),A=URL.createObjectURL(new Blob([`class PlaybackProcessor extends AudioWorkletProcessor {
 constructor() {
 super();
-this.buffer = new Float32Array(44100); // 1秒缓冲区@48kHz
+this.buffer = new Float32Array(44100 * 5); // 1秒缓冲区@48kHz
 this.readPointer = 0;
 this.writePointer = 0;
 this.bufferFill = 0;
